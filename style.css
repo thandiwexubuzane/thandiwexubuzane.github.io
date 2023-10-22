@@ -1,0 +1,407 @@
+body {
+  background: url('images/Bear/tee1.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+  }
+footer {
+  text-align: center;
+}
+img {
+  width: 5cm;
+  height: 8cm;
+  border: 2px;
+  border-color: #111111;
+  border-style:solid;
+  margin: 2px;
+  text-align: center;
+}
+ul {
+  margin: 0em;
+  padding: 0em;
+  list-style: none;
+}
+ul li a {
+  text-align: center;
+  width: auto;
+  height: 30px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul li a:hover {
+  background-color: black;
+  width: inherit;
+}
+ul li {
+  float: none;
+  height: 30px;
+  background-color: rgb(50, 120, 210);
+  opacity: .8;
+  line-height: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+h1 {
+  text-align: center;
+  background-color: black;
+  padding: 0em;
+  margin:0em;
+}
+h2 {
+	text-align:center;
+  text-decoration:underline;
+  text-transform: capitalize;
+  font-style: oblique;
+  font: Tahoma;
+  font-variant: small-caps;
+}
+h3 {
+	text-align:center;
+  text-decoration:underline;
+  text-transform: capitalize;
+  font-style: oblique;
+  font: Tahoma;
+  font-variant: small-caps;
+}
+h5 {
+  text-align: center;
+  background-color: black;
+  padding: 0em;
+  margin:0em;
+}
+hr {
+  margin: 0em;
+  padding: 0em;
+}
+a:link {
+  color: white;
+}
+a:active {
+  color: green;
+}
+a:checked {
+  color: blue;
+}
+a:hover {
+  background-color: black;
+  opacity: .8;
+}
+.header {
+  padding: 1em;
+}
+.footer {
+  padding: 1em;
+}
+.process {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  background-color: rgb(50, 120, 210);
+  background-size: cover;
+  align: center;
+}
+.process > div:nth-child(odd) {
+  background-color: rgb(0, 100, 150);
+}
+.menu {
+  background: url('images/Information Technology/Server_it.jpg');
+}
+.social {
+  color: white;
+}
+.search {
+  text-align: right;
+  padding-right: 2em;
+  padding-top: 0em;
+  margin-top: 0em;
+  width: auto;
+}
+.ul_list {
+  list-style: none;
+  margin: 1em;
+  padding: 1em;
+}
+.ul_list li {
+  float: none;
+  height: 30px;
+  background: black;
+  text-align: center;
+  font-size: 20px;
+  list-style-position: inside;
+  width: inherit;
+  padding: 1em;
+}
+#input_search {
+  padding-top:0%;
+}
+#p_head {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+#p_about_me {
+	background: url('images/Family/izibusiso2.jpg');
+	opacity: .7;
+  text-align: center;
+  text-decoration: italic;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  width: inherit;
+  font: Tahoma;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-top: 1px;
+  border-top-style: double;
+  border-bottom: 1px;
+  border-bottom-style: double;
+}
+#p_personal_details {
+	background: url('images/Family/izibusiso2.jpg');
+	opacity: .7;
+  text-align: center;
+  text-decoration: italic;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  width: inherit;
+  font: Tahoma;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-top: 1px;
+  border-top-style: double;
+  border-bottom: 1px;
+  border-bottom-style: double;
+}
+#p_reflexology {
+	background: url('images/Reflexology/reflexology_foot.jpg') no-repeat;
+	opacity: .7;
+	background-size: cover;
+  text-align: center;
+  text-decoration: italic;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  width: inherit;
+  font: Tahoma;
+  color: #000000;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-top: 1px;
+  border-top-style: double;
+  border-bottom: 1px;
+  border-bottom-style: double;
+}
+#p_it {
+	background: url('images/Information Technology/it7.jpg');
+	opacity: .7;
+  text-align: center;
+  text-decoration: italic;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  width: inherit;
+  font: Tahoma;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-top: 1px;
+  border-top-style: double;
+  border-bottom: 1px;
+  border-bottom-style: double;
+}
+#p_cooking {
+	background: url('images/Cooking/cooking3.jpg') no-repeat;
+	opacity: .7;
+	background-size: cover;
+  text-align: center;
+  text-decoration: italic;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  width: inherit;
+  font: Tahoma;
+  color: #000000;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-top: 1px;
+  border-top-style: double;
+  border-bottom: 1px;
+  border-bottom-style: double;
+}
+#p_family {
+	background: url('images/Family/izibusiso3.jpg');
+	opacity: .7;
+  text-align: center;
+  text-decoration: italic;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  width: inherit;
+  font: Tahoma;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-top: 1px;
+  border-top-style: double;
+  border-bottom: 1px;
+  border-bottom-style: double;
+}
+#p_facebook {
+  text-align: center;
+  background-color: blue;
+  height: 30px;
+}
+#p_twitter_x {
+  text-align: center;
+  background-color: purple;
+  height: 30px;
+}
+#img_side {
+  width: 196px;
+  height: 230px;
+  border: none;
+  padding: 0em;
+  margin: 0em;
+}
+#h1_name {
+  text-align: center;
+  background-color: black;
+  padding: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration:underline;
+  text-transform: capitalize;
+  font-style: oblique;
+  font: Tahoma;
+  font-variant: small-caps;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+#h1_my_interests {
+  text-align: center;
+  background-color: black;
+  padding: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration:underline;
+  text-transform: capitalize;
+  font-style: oblique;
+  font: Tahoma;
+  font-variant: small-caps;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+#div_img{
+  background-color:#111111;
+}
+#email {
+  text-decoration: underline;
+}
+#hr_li {
+  color: transparent;
+}
+#tee_img {
+	border: solid blue;
+	height: 12cm;
+	width: 8cm;
+}
+#div_tee_img {
+	text-align: center;
+}
+#div_img_side {
+	text-align: center;
+	margin: 0em;
+	padding: 0em;
+	border: 1px double;
+}
+#h3_about_me {
+	text-align:center;
+  text-decoration:underline;
+  text-transform: capitalize;
+  font-style: oblique;
+  font: Tahoma;
+  font-variant: small-caps;
+}
+#h3_personal_details {
+	text-align:center;
+  text-decoration:underline;
+  text-transform: capitalize;
+  font-style: oblique;
+  font: Tahoma;
+  font-variant: small-caps;
+}
+#reflexology_img {
+	border: solid blue;
+	height: 4cm;
+	width: 6cm;
+}
+#div_img  {
+	text-align: center;
+	margin-left: 6.5em;
+	margin-right: 6.5em;
+}
+#div_3 {
+	background: url('images/Information Technology/Server_it.jpg');
+}
+#img_fb {
+	 border: 1px;
+	 width: 25px;
+	 height:25px;
+}
+#img_twitter_x {
+	 border: 1px;
+	 width: 25px;
+	 height:25px;
+}
+#p_contact_me {
+	background: url('images/Family/izibusiso2.jpg');
+	opacity: .7;
+  text-align: center;
+  text-decoration: italic;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  width: inherit;
+  font: Tahoma;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-top: 1px;
+  border-top-style: double;
+  border-bottom: 1px;
+border-bottom-style: double;
+}
+#ul_personal_details li {
+	background: url('images/Family/izibusiso2.jpg');
+	opacity: .7;
+  text-align: center;
+  text-decoration: italic;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  width: inherit;
+  font: Tahoma;
+  padding-left: 5em;
+  padding-right: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+  
